@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+}
+
+h2{
+font-family: Poppins;
+}
+
+.start{
+    position: relative;
+    left: 125px;
+}
+.end{
+    position: absolute;
+    top: 600px;
+    left: 1350px
+}
+
+.maze-background{
+ position: absolute;
+ width: 100%;
+ height: 400px;
+ background-color: rgb(186, 46, 214);
+}
+
+.maze-walls{
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 100px;
+ height: 400px;
+ background-color: green;
+}
+
+.maze-walls2{
+ position: absolute;
+ top: 0px;
+ left: 200px;
+ width: 100px;
+ height: 300px;
+ background-color: blue;
+}
+
+.maze-walls3{
+ position: absolute;
+ top: 100px;
+ left: 400px;
+ width: 100px;
+ height: 300px;
+ background-color: yellow;
+}
+
+.maze-walls4{
+ position: absolute;
+ top: 0px;
+ left: 600px;
+ width: 100px;
+ height: 300px;
+ background-color: orange;
+}
+
+.maze-walls5{
+    position: absolute;
+    top: 100px;
+    left: 800px;
+    width: 100px;
+    height: 300px;
+    background-color: red;
+}
+
+.maze-walls6{
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+    width: 100px;
+    height: 300px;
+    background-color: limegreen;
+}
+
+.maze-walls7{
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    width: 100px;
+    height: 300px;
+    background-color: turquoise;
+}
+
+.square {
+  position: absolute;
+  top:0px;
+  left:100px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: square-movement;
+  animation-duration: 4s;
+  animation-delay: 0s;
+}
+
+@keyframes square-movement {
+  0%   {background-color:red; left:100px; top:0px;}
+  5%  {background-color:red; left:100px; top:300px;}
+  10%  {background-color:red; left:300px; top:300px;}
+  15%  {background-color:red; left:300px; top:0px;}
+  20% {background-color:red; left:300px; top:0px;}
+  25% {background-color:red; left:500px; top:0px;}
+  30% {background-color:red; left:500px; top:300px;}
+  35% {background-color:red; left:700px; top:300px;}
+  40% {background-color:red; left:700px; top:0px;}
+  45% {background-color:red; left:900px; top:0px;}
+  50% {background-color:red; left:900px; top:300px;}
+  55% {background-color:red; left:1100px; top:300px;}
+  60% {background-color:red; left:1100px; top:0px;}
+  65% {background-color:red; left:1300px; top:0px;}
+  70% {background-color:red; left:1300px; top:300px;}
+
+}
+
